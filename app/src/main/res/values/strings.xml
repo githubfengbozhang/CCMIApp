@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">合川文明督查</string>
+    <string name="accont">请输入账号</string>
+    <string name="password">请输入密码</string>
+</resources>

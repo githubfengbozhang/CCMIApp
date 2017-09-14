@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    >
+
+   <LinearLayout
+
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <ImageView
+           android:id="@+id/user01"
+           android:layout_width="wrap_content"
+           android:layout_height="54dp"
+           android:src="@drawable/user01"
+           android:paddingBottom="15dp"/>
+
+       <EditText
+           android:id="@+id/account1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="2"
+           android:maxLines="1"
+           android:hint="请输入账号"
+           android:inputType="textPersonName" />
+   </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/password01"
+            android:layout_marginLeft="6dp"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:src="@drawable/password01"
+            android:paddingBottom="15dp"/>
+
+        <EditText
+            android:id="@+id/passowd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:maxLines="1"
+            android:hint="请输入密码"
+            android:inputType="textPassword"/>
+    </LinearLayout>
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="40dp"
+       android:id="@+id/submit"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:text="提交"/>
+
+</LinearLayout>
